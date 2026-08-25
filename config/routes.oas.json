@@ -9,7 +9,7 @@
       "x-zuplo-path": {
         "pathMode": "open-api"
       },
-      "get": {
+      "post": {
         "summary": "JioHS-Sandbox",
         "description": "",
         "x-zuplo-route": {
