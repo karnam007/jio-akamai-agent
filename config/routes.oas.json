@@ -5,7 +5,7 @@
     "title": "My Zuplo API"
   },
   "paths": {
-    "/akamai-agent": {
+    "/api/generate": {
       "x-zuplo-path": {
         "pathMode": "open-api"
       },
@@ -18,7 +18,7 @@
             "export": "urlForwardHandler",
             "module": "$import(@zuplo/runtime)",
             "options": {
-              "baseUrl": "https://echo.zuplo.io"
+              "baseUrl": "http://172.237.44.214:11434"
             }
           },
           "policies": {
